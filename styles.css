@@ -2,4 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 100%;
 }
+body {
+    display: flex;
+    height: 100%;
+}
+
+.leftDiv{
+    height: 100%;
+    width: 800px;
+    border: 2px solid black;
+    background-image: url(formImages/halie-west-25xggax4bSA-unsplash.jpg) ;
+    background-size: cover;
+}
+.logoDiv {
+    height: 200px;
+    margin-top: 350px;
+    background-color: black;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.logoDiv img {
+    opacity: 100%;
+}
+
+.rightDiv {
+    height: 100%;
+    width: 100%;
+    border: 2px dashed pink;
+    text-align: center;
+}
+
