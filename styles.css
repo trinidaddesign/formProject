@@ -11,9 +11,10 @@ body {
 
 .leftDiv{
     height: 100%;
-    width: 800px;
+    width: 900px;
+    min-width: 200px;
     border: 2px solid black;
-    background-image: url(formImages/halie-west-25xggax4bSA-unsplash.jpg) ;
+    background-image: url(formImages/aPOjCtJJIC1rcnitWmJUjZStMdd.jpg) ;
     background-size: cover;
 }
 .logoDiv {
@@ -29,10 +30,13 @@ body {
     opacity: 100%;
 }
 
-.rightDiv {
-    height: 100%;
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 25%;
     width: 100%;
     border: 2px dashed pink;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
-
