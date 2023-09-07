@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     height: 100%;
+    font-family: 'Metal Mania', cursive;;
 }
 body {
     display: flex;
@@ -39,4 +41,8 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+@media only screen and (min-width: 700px) {
+    
 }
