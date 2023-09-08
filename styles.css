@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+:root {
+    --main-color: black;
+    --second-color: rgb(138, 2, 2);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,11 +14,12 @@
 body {
     display: flex;
     height: 100%;
+    font-size: 16px;
 }
 
 .leftDiv{
     height: 100%;
-    width: 900px;
+    width: 35%;
     min-width: 200px;
     border: 2px solid black;
     background-image: url(formImages/aPOjCtJJIC1rcnitWmJUjZStMdd.jpg) ;
@@ -32,6 +38,13 @@ body {
     opacity: 100%;
 }
 
+.rightDiv {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    align-items: center;
+}
 .header {
     display: flex;
     flex-direction: column;
@@ -40,9 +53,21 @@ body {
     border: 2px dashed pink;
     text-align: center;
     margin: 0;
+    margin-top: 15px;
     padding: 0;
+    letter-spacing: 2px;
 }
+.header p {
+    color: var(--second-color);
+}
+
+form input[type="text"] {
+    height: 18px;
+}
+
+
 
 @media only screen and (min-width: 700px) {
     
 }
+
