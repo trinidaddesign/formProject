@@ -13,7 +13,7 @@
 body {
     display: flex;
     height: 100vh;
-    font-size: 18px;
+    font-size: 50px;
 }
 
 .leftDiv{
@@ -42,9 +42,9 @@ body {
     height: 100%;
     min-width: 65%;
     align-items: center;
+    background-color: rgb(34, 34, 34) ;
 }
-.header {
-    background-color: var(--main-color);
+.header  {
     display: flex;
     flex-direction: column;
     height: 25%;
@@ -71,8 +71,6 @@ body {
     justify-content: center;
     padding-left: 30px;
     gap: 10px;
-    box-shadow: 0px 10px 5px lightgray;
-    background-color: rgb(34, 34, 34);
 }
 .form {
     display: flex;
@@ -93,6 +91,22 @@ button {
 label {
     color: var(--second-color);
 }
+input {
+    font-size: large;
+}
+
+input:focus {
+    background-color: var(--second-color)
+}
+
+button {
+    background-color: var(--second-color);
+}
+
+button:focus {
+    background-color: var(--main-color);
+
+}
 
 
 
@@ -101,8 +115,10 @@ label {
 
     
     .formContainer {
-        margin-top: 20px;
+        margin-top: 40px;
+        padding-top: 50px;
         padding-left: 15px;
     }
+    
 }
 
