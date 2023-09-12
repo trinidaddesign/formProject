@@ -80,12 +80,14 @@ body {
     font-size: large;
 }
 
+
 button {
     height: 50px;
     width: 100px;
     border-radius: 10% 10% 10% 10%;
     margin-top: 50px;
     margin-right: 450px;
+    background-color: var(--second-color);
 }
 
 label {
@@ -99,9 +101,6 @@ input:focus {
     background-color: var(--second-color)
 }
 
-button {
-    background-color: var(--second-color);
-}
 
 button:focus {
     background-color: var(--main-color);
