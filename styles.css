@@ -20,6 +20,7 @@ body {
     height: 100dvh;
     width: 100dvw;
     background-color: #f5f3f4;
+    overflow-y: hidden;
 }
 
 .container {
@@ -28,6 +29,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 0.5px;
 }
 
 .header {
@@ -43,7 +45,6 @@ body {
 
 
 .leftDiv {
-    border: 1px solid black;
     grid-area: 1 / 1 / 4 / 2;
     background-image: url(formImages/many-old-rusty-metal-gears-background-27564673.webp);
 }
@@ -132,8 +133,8 @@ button:hover {
 
 .innerRight {
     display: grid;
-    border: 1px solid black;
     text-wrap: wrap;
     text-align: center;
     justify-items: center;
+    padding-top: 10px;
 }
