@@ -7,51 +7,61 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="leftDiv">
-        <div class="logoDiv">
-            <img src="formImages/1442492-facebones.png" alt="facebones">
+    <div class="container">
+        <div class="leftDiv">
+            <div class="logoDiv">
+            </div>
         </div>
-    </div>
+            <header class="header">
+                <h1>WELCOME TO DETHKLOK</h1>
+                <h2><em>Are you ready to be a Gear in the Klok?</em></h2>
+            </header>
 
-    <div class="rightDiv">
-        <header class="header">
-            <h1>WELCOME TO DETHKLOK</h1>
-            <p><em>Are you ready to be a Gear in the Klok?</em></p>
-        </header>
-
-        <form action="" id="form" class="formContainer">
-            <div class="form">
-                <label for="firstName">First Name
+            <form action="" id="form" class="formContainer">
+                
+                <div class="firstName">
+                    <label for="firstName" class="firstName">First Name
                     <input type="text" id="firstName" name="firstName" required>
-                </label>
+                </div>
 
-                <label for="lastName" id="lastName">Last Name
+                <div class="lastName">
+                    <label for="lastName">Last Name</label>
                     <input type="text" id="lastName" name="lastName" required>
-                </label>
-            </div>
+                </div>
 
-            <div class="form">
-                <label for="email">Email
+                <div class="email">
+                    <label for="email">Email</label>
                     <input type="email" id="email" name="email" required>
-                </label>
-            
-                <label for="phoneNumber" id="phoneNumber">Phone Number
+                </div>
+                
+                <div class="phone">
+                    <label for="phoneNumber">Phone Number</label>
                     <input type="tel" id="phoneNumber" name="phoneNumber">
-                </label>
-            </div>
-
-            <div class="form">
-                <label for="password" id="password">Password
+                </div>
+                
+                <div class="pass">
+                    <label for="password" id="password">Password</label>
                     <input type="password" id="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" required>
-                </label>
-                <label for="password" id="password">Password
+                </div>
+                
+                <div class="pass">
+                    <label for="password" id="password">Password</label>
                     <input type="password" id="password" name="password" patter="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" required>
-                </label>
+                </div>
+            </form>
+
+            <div class="rightDiv">
+
             </div>
-        </form>
-        <div class="button">
-            <button form="form" type="submit">Sell Your Soul</button>
-        </div>
+            <div class="bottomDiv">
+                <div class="image">
+                    <img class="nathan" src="formImages/nathan2.png" alt="">
+                </div>
+                <div class="button">
+                    <button form="form" type="submit">Sell Your Soul</button>
+                </div>
+            </div>
+        
     </div>
 
 </body>
